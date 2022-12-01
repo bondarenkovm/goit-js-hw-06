@@ -17,7 +17,7 @@ const list = document.querySelector('.gallery');
 const imagesMarkup = images
   .map(
     ({ url, alt }) =>
-      `<li class="gallery__item"><img width="600" height="400" src = '${url}' alt = '${alt}'></li>`
+      `<li class="gallery__item"><img width="400" height="300" src = '${url}' alt = '${alt}'></li>`
   )
   .join('');
 console.log(imagesMarkup);

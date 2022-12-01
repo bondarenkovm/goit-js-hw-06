@@ -7,10 +7,8 @@ let counterValue = 0;
 incrementBtn.addEventListener('click', () => {
   counterValue += 1;
   valueEl.textContent = counterValue;
-  // incrementBtn.style.backgroundColor = `green`;
 });
 decrementBtn.addEventListener('click', () => {
   counterValue -= 1;
   valueEl.textContent = counterValue;
-  // decrementBtn.style.backgroundColor = `red`;
 });
